@@ -37,7 +37,7 @@ export function Home() {
             alt="icon1"
             width={500}
             height={500}
-            className=" w-full p-2 object-contain invert-100"
+            className=" w-full p-2 object-contain "
           />
         </button>
 
@@ -75,14 +75,14 @@ export function Home() {
       </div>
 
       <div className=" mt-30 relative w-full text-[#580000] ">
-        <motion.div {...anim}  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-7xl -rotate-2  -translate-x-full">
+        <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-7xl -rotate-2  -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You I Love You I Love You I Love You I Love You I Love You
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
-        </motion.div>
+        </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-6xl mb-10 rotate-2  -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
@@ -91,14 +91,14 @@ export function Home() {
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
         </div>
-        <motion.div {...anim}  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-5xl mt-15  -rotate-2 -translate-x-full">
+        <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-5xl mt-15  -rotate-2 -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You I Love You I Love You I Love You I Love You I Love You
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
-        </motion.div>
+        </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-4xl mb-10 rotate-2  -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
@@ -107,14 +107,14 @@ export function Home() {
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
         </div>
-        <motion.div {...anim}  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-3xl mt-15 -rotate-2 -translate-x-full">
+        <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-3xl mt-15 -rotate-2 -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You I Love You I Love You I Love You I Love You I Love You
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
-        </motion.div>
+        </div>
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-2xl mb-10 rotate-2  -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
@@ -123,14 +123,14 @@ export function Home() {
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
         </div>
-        <motion.div {...anim}  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-xl mt-15 -rotate-2 -translate-x-full">
+        <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-xl mt-15 -rotate-2 -translate-x-full">
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You I Love You I Love You I Love You I Love You I Love You
           I Love You I Love You I Love You I Love You I Love You I Love You I
           Love You I Love You I Love You I Love You I Love You I Love You I Love
           You I Love You
-        </motion.div>
+        </div>
         <Image
           src="/img4.jpg"
           alt="icon1"
