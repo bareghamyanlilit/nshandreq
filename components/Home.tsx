@@ -3,7 +3,7 @@ import Image from "next/image";
 import { TimeBox } from "./TimeBox";
 import { useState } from "react";
 import { MusicPlayer } from "./music";
-import { anim, txt1, txt1_1, txt2, txt2_1, txt3 } from "@/data/data";
+import { anim, date, names, txt1, txt1_1, txt2, txt2_1, txt3, vazoxTox } from "@/data/data";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -49,11 +49,11 @@ export function Home() {
         style={{ backgroundImage: "url('/img1.jpg')" }}
       >
         <div className="flex items-center justify-center">
-          <h2 className="text-[64px] mb-20 text-vrayi">Կարեն</h2>
+          <h2 className="text-[64px] mb-20 text-vrayi">{names[0]}</h2>
           <span className="text-9xl text-taki"> & </span>
-          <h2 className="text-[64px] mt-20 text-vrayi">Լիկա</h2>
+          <h2 className="text-[64px] mt-20 text-vrayi">{names[1]}</h2>
         </div>
-        <p className="FontSHK_Dzeragir text-[64px] text-vrayi">17/07/2026</p>
+        <p className="FontSHK_Dzeragir text-[64px] text-vrayi">{date}</p>
       </div>
 
       <div className="FontSHK_Dzeragir px-5 my-20">
@@ -74,62 +74,27 @@ export function Home() {
         </motion.p>
       </div>
 
-      <div className=" mt-30 relative w-full text-[#580000] ">
+      <div className=" mt-30 relative w-full text-vrayi ">
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-7xl -rotate-2  -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-6xl mb-10 rotate-2  -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-5xl mt-15  -rotate-2 -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-4xl mb-10 rotate-2  -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-3xl mt-15 -rotate-2 -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-2xl mb-10 rotate-2  -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <div  className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-xl mt-15 -rotate-2 -translate-x-full">
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You I Love You I Love You I Love You I Love You I Love You
-          I Love You I Love You I Love You I Love You I Love You I Love You I
-          Love You I Love You I Love You I Love You I Love You I Love You I Love
-          You I Love You
+          {vazoxTox}
         </div>
         <Image
           src="/img4.jpg"
@@ -162,6 +127,7 @@ export function Home() {
           {txt3}
         </span>
       </motion.p>
+      
       <motion.div {...anim} className="px-5">
         <Image
           src="/img2.jpg"
