@@ -2,7 +2,7 @@ import { anim } from "@/data/data";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const weddingDate: any = new Date("2026-05-14T12:00:00");
+const weddingDate: any = new Date("2027-05-14T12:00:00");
 
 export function TimeBox() {
   const [timeLeft, setTimeLeft] : any= useState({
